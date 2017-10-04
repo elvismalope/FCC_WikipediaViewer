@@ -1,0 +1,52 @@
+
+body {
+	text-align: center;
+	background-color: #1b2d47;
+  color: #FFFFFF;
+}
+
+.search-bar {
+	padding: 30px 5px;
+	max-width: 500px;
+	margin: auto;
+}
+
+.search-bar > h4 > a {
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+.search-results > ul > li {
+	background-color: #FFFFFF;
+	color: #000000;
+	list-style-type: none;
+	text-align: left;
+	border-radius: 2px 2px 0px 0px;
+	margin-top: 15px
+}
+.search-results > ul > li > a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.search-results > ul > li > a > div {
+	border-left: 5px solid #1b2d47;
+	padding: 5px 10px 10px 10px;
+}
+
+.search-results > ul > li > a > div:hover {
+ 	border-left-color: #e06016;
+}
+
+footer {
+	padding: 30px 0px;
+}
+
+footer > p > a {
+	color:#e06016;
+	text-decoration: none;
+}
+
+.add-on {
+	display: inline-block;
+}

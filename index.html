@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Set Viewport For Small Screen Sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- IMport JavaScript Files -->
+    <script src="/js/jquery-3.2.1.js" charset="utf-8"></script>
+    <script src="/js/main.js" charset="utf-8"></script>
+    <title>Wikipedia Viewer</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div id="searchBar" class="search-bar">
+            <h4><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a random wikipedia article</a></h4>
+            <h3>OR</h3>
+            <div class="input-group">
+              <input class="form-control" placeholder="Search wikipedia article" name="search-input" id="searchInput" type="text">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="button" name="search" id="searchButton"><i class="fa fa-search"></i></button>
+              </div>
+            </div>
+          </div>
+          <div id="searchResults" class="search-results">
+            <!-- Search Results Goes Here -->
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>Coded by <a target="_blank" href="https://www.freecodecamp.org/elvismalope">Elvis Malope</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
